@@ -7,3 +7,7 @@ exports.signupService = async (userInfo) => {
     console.error({ error });
   }
 };
+
+exports.findUserByEmailService = async (email) => {
+  return await User.findOne({ email });
+};
