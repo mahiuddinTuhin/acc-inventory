@@ -1,0 +1,28 @@
+# Node.js dependencies
+/node_modules
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+
+# Build output
+/build
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# IDE-specific files
+.vscode
+.idea
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: Exclude sensitive or local configuration files
+# config.js
+# local.js
